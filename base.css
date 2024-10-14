@@ -67,6 +67,7 @@ body {
 
 
 /* --------------------------------------------------------- NavBarCss ----------------------------------------------------------------- */ 
+
 .navbar {
     height: 60px;
     display: flex;
@@ -76,7 +77,6 @@ body {
     justify-content: flex-end; 
     align-items: center;
     background-color: rgb(209, 228, 206);
-    /* color: #fff;  */
     padding: 10px 20px;
     z-index: 20;
 }
@@ -116,7 +116,7 @@ body {
 /* --------------------------------------------------------- NavBarCss Ending  & Starting of FooterCss----------------------------------------------------------------- */ 
 
 
-footer {
+/* footer {
     background-color: #90e26a;
     position: sticky;
     top: 100%;
@@ -193,8 +193,40 @@ footer {
 .footerBottom p{
     color: rgb(0, 0, 0);
 }
+ */
 
 
+/* 
+
+.footer {
+    background-color: #343a40;
+    color: #fff; 
+  }
+  
+  .footerLogo {
+    max-width: 150px; 
+  }
+  
+  .socialIcons a {
+    color: #fff; 
+    font-size: 1.5rem; 
+    transition: color 0.3s ease;
+  }
+  
+  .socialIcons a:hover {
+    color: #007bff; 
+  }
+  
+  @media (max-width: 768px) {
+    .footerLogo {
+      margin-bottom: 10px;
+    }
+  
+    .socialIcons a {
+      margin: 0 10px; 
+    }
+  } */
+  
 /* ------------------------------------------------------------------ FooterCss Ending -------------------------------------------------------------------------------- */ 
 
 
