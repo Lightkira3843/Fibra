@@ -33,6 +33,24 @@ body {
   }
   
 
+/* Styles for mobile devices */
+@media (max-width: 768px) {
+    .video-container {
+        height: 240px; /* Fixed height for mobile */
+    }
+
+    video {
+        position: absolute;
+        top: 50%; /* Center the video vertically */
+        left: 50%; /* Center the video horizontally */
+        width: 100%; /* Full width */
+        height: auto; /* Maintain aspect ratio */
+        min-height: 240px; /* Ensure it fits the height */
+        transform: translate(-50%, -50%); /* Center the video */
+        object-fit: cover; /* Cover the container without distortion */
+    }
+}
+
 
 /* --------------------------------------------------------- CardsCss ----------------------------------------------------------------- */ 
 
