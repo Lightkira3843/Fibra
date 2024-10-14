@@ -18,12 +18,12 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
 
-  <!-- <nav class="navbar">
-    <a href="#"><img src="png/SiteLogo.jpg" class="navbarlogo" alt="Site Logo"></a>
+  <nav class="navbar" style="height: 91px;">
+    <a href="#"><img src="png/SiteLogo1.png" class="navbarlogo" alt="Site Logo"></a>
     <div class="auth-buttons">
-      <button class="register-button" data-url="#">Register</button>
+      <button class="register-button" onclick="window.open('https://wa.me/c/916395708692', '_blank'); this.blur();">Connect</button>
     </div>
-  </nav> -->
+  </nav>
 
 
   <style>
@@ -84,10 +84,10 @@
           <div class="card-body">
             <h5 class="card-title">Reclaim Polo t-shirt</h5>
             <p class="card-text">Made from 4 recycled plastic bottles wood finished button from recycled plastic double tipping on collar and sleeves quick try fabric</p>
-<!--             <a href="#" class="btn btn-sm btn-custom position-absolute"
+            <a href="#" class="btn btn-sm btn-custom position-absolute"
               style="bottom: 10px; right: 10px; width: 25%; background-color: white; border: 1px solid #ccc;">
               Buy
-            </a> -->
+            </a>
           </div>
         </div>
       </div>
@@ -173,7 +173,7 @@
           <img src="Images/cards/img9.jpeg" class="d-block w-100">
           <div class="card-body">
             <h5 class="card-title">V-NECK TSHIRT</h5>
-            <p class="card-text">RECYCLABLE BAMBOO AND POLY COTTON
+            <p class="card-text">BAMBOO AND POLY COTTON
               CLASSIC V-NECK TSHIRT
               FOR WOMEN</p>
           </div>
@@ -203,30 +203,85 @@
     </button>
   </div>
   
-
   <footer>
-
-    <div class="footerContainer">
-      <dix> <a href="#"><img src="png/fib-logo.jpeg" class="footerLogo"> </a>
+    <div class="container footerContainer">
+      <!-- Social Icons at the top left -->
+      <div class="row justify-content-between">
+        <div class="col-6 d-flex align-items-center">
+          <div class="socialIcons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/fabbricato.in?igsh=emF2eW15MDQ2a3c3"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+        <!-- Footer logo at the top right, smaller -->
+        <div class="col-6 d-flex justify-content-end">
+          <a href="#"><img src="png/footerlogo.png" class="footerLogo" style="height: 50px; width: auto;"></a>
+        </div>
+      </div>
+  
+      <!-- Three columns in the center of the footer -->
+      <div class="row justify-content-center mt-4">
+        <div class="col-4 text-center">
+          <h5>About</h5>
+          <p>Fibra Clothing Pvt Ltd is a socially responsible fashion brand committed to sustainability, quality, and style. We design and manufacture clothing that not only makes you look good but also does good for the planet</p>
+        </div>
+        <div class="col-4 text-center">
+          <h5>Products</h5>
+          <ul style="list-style-type: none; padding: 0;">
+            <li><a href="#">Reclaim Polo T-shirt</a></li>
+            <li><a href="#">Bamboo Raglon T-shirt</a></li>
+            <li><a href="#">Bamboo Polo T-shirt</a></li>
+            <li><a href="#">More Products</a></li>
+          </ul>
+        </div>
+        <div class="col-4 text-center">
+          <h5>Contact</h5>
+          <p>Email: fabbricato88@gmail.com</p>
+          <p>Phone: +91 6395708692</p>
+          <p>Location: MIET Incubation Forum Miet College Meerut NH-58</p>
+        </div>
+      </div>
+  
+      <!-- Footer bottom text -->
+      <div class="footerBottom mt-4 text-center">
+        <p>Copyright &copy;2024 <span class="desiner">Fibra</span></p>
+      </div>
     </div>
-
-    <div class="socialIcons">
-      <a href="#"> <i class="fa-brands fa-facebook"></i></a>
-      <a href="https://www.instagram.com/fabbricato.in?igsh=emF2eW15MDQ2a3c3"> <i class="fa-brands fa-instagram"></i></a>
-      <a href="#"> <i class="fa-brands fa-twitter"></i></a>
-      <a href="#"> <i class="fa-brands fa-youtube"></i></a>
-      <a href="#"> <i class="fa-brands fa-discord"></i></a>
-    </div>
-
-    </div>
-
-    <div class="footerBottom">
-      <p> Copyright &copy;2024 <span class="desiner"> Fibra </span> </p>
-    </div>
-
+  
+    <style>
+      .footerContainer {
+        padding: 40px 20px;
+        background-color: #333; /* Change the background color here */
+        color: white; /* Change text color for better contrast */
+      }
+  
+      .footerLogo {
+        max-height: 50px; /* Smaller logo size */
+        width: auto;
+      }
+  
+      .socialIcons a {
+        margin-right: 10px;
+        font-size: 24px;
+        color: white; /* Set social icon color to white */
+      }
+  
+      .footerBottom {
+        margin-top: 20px;
+        font-size: 14px;
+        color: #ccc; /* Change footer bottom text color for better readability */
+      }
+  
+      /* Mobile responsiveness */
+      @media (max-width: 768px) {
+        .col-4 {
+          margin-bottom: 20px;
+        }
+      }
+    </style>
   </footer>
-
-
+  
   <script>
     const buttons = document.querySelectorAll(".login-button, .signup-button");
 
